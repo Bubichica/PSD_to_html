@@ -18,7 +18,11 @@ header{
 
 .sectionOne{
     display: flex;
-    flex-direction: column;
+   flex-direction: column;
+}
+.align{
+    display: flex;
+    flex-direction: row;
 }
 
 .logoSmall{
@@ -28,20 +32,23 @@ header{
 .logoSmall h3{
     align-self: center;
     font-weight: lighter;
-    padding: 15px;
+    font-size: 35px;
+    padding-left: 15px;
+    padding-right: 300px;
 }
 
 .sectionOne nav ul{
-    padding: 0;
     display: flex;
-    justify-content:space-between;
-    align-self: flex-end;
+    align-items: center;
+    justify-content:center;
     list-style: none;
-    font-size: 10px;
-    font-weight: lighter;
+    font-size: 13px;
+    font-weight: bold;
+    gap: 10px;
+    padding-top: 20px;
 }
 
-.homeNavLink {
+#homeNavLink {
     color: lightseagreen;
 }
 
@@ -52,10 +59,18 @@ header{
     align-items: center;
 }
 
-.introduction h2{
-    padding: 20px 30px;
+hr{
+    width: 40px;
+}
+
+.introduction h1{
+    padding: 20px 5px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.sectionOne p{
+    padding-top: 30px;
 }
 
 .introduction button {
@@ -95,7 +110,8 @@ header{
 
 
 .title{
-    padding: 20px;
+    padding-left: 0px;
+    padding-bottom: 20px;
 }
 
 p .description{
